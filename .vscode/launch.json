@@ -24,7 +24,8 @@
             "externalConsole": true,
             "debugOptions": [
                 "WaitOnAbnormalExit",
-                "WaitOnNormalExit"
+                "WaitOnNormalExit",
+                "RedirectOutput"
             ]
         },
         {
