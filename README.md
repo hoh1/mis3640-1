@@ -8,6 +8,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Official Python 3 Documentation (<https://docs.python.org/3/library/index.html>): "official"/technical explanation of what a particular function/operator does, examples of correct syntax, what the various libraries are, etc.
 - Reserved Keywords in Python (<https://docs.python.org/3.0/reference/lexical_analysis.html#id8>): don't use these as variable names.
 - PEP 8 (<https://www.python.org/dev/peps/pep-0008/>): Style Guide for Python Code: learn what is good and bad style in Python.
+- Google Python Style Guide (<https://google.github.io/styleguide/pyguide.html>): style guidelines for Google code.
 
 ### Textbooks/Tutorials
 - Dive Into Python (<http://www.diveintopython3.net/>): another survey of Python syntax, datatypes, etc.
@@ -18,6 +19,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Python 101 (<http://www.blog.pythonlibrary.org/2014/06/03/python-101-book-published-today/>) Available as a reasonably priced ebook. This is a new one from a popular Blogger about Python. Lots of practical examples. 
 - Python Essential Reference (<http://www.dabeaz.com/per.html>): The definitive reference for both Python and much of the standard library.
 - Hitchhikers Guide to Python (<http://docs.python-guide.org/en/latest>): Under active development, and still somewhat incomplete, but there is good stuff.
+- Google's Python Class (<https://developers.google.com/edu/python>): kinda old, used within Google to introduce Python to people who have just a little programming experience. 
 - Writing Idiomatic Python (<https://www.jeffknupp.com/writing-idiomatic-python-ebook>): Focused on not just getting the code to work, but how to write it in a really "Pythonic" way.
 - Fluent Python (<http://shop.oreilly.com/product/0636920032519.do>): All python3, and focused on getting the advanced details right. Good place to go once you've got the basics down.
 - CheckIO (<https://checkio.org/>): learn Python by exploring a game world
@@ -26,6 +28,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Python Tutor (<http://www.pythontutor.com/>): interactive tutorial sequence of exercises.
 - Problem Solving with Algorithms and Data Structures (<http://interactivepython.org/runestone/static/pythonds/index.html>): Links to an external site.
 - Python Course (http://www.python-course.eu/python3_course.php>): Links to an external site.
+
 
 ### Debugging
 - Python Tutor (<http://www.pythontutor.com/>): an excellent way to actually visualize how the interpreter actually reads and executes your code.
