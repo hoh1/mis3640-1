@@ -29,7 +29,8 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Codecademy (<https://www.codecademy.com/learn/python>): (note: for Python 2) learn Python by building web apps and manipulating data; interactive tutorial sequence.
 - Python Tutor (<http://www.pythontutor.com/>): interactive tutorial sequence of exercises.
 - Problem Solving with Algorithms and Data Structures (<http://interactivepython.org/runestone/static/pythonds/index.html>): Links to an external site.
-- Python Course (http://www.python-course.eu/python3_course.php>): Links to an external site.
+- Python Course (http://www.python-course.eu/python3_course.php>): Links to an external site
+- codecademy Python course (<https://www.codecademy.com/learn/python>)
 - Software carpentry (<https://v4.software-carpentry.org/python/>)
 - edX Python courses (<https://www.edx.org/course?search_query=python>)
 - coursera Python courses (<https://www.coursera.org/courses?languages=en&query=python>)
