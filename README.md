@@ -5,10 +5,12 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 ## Learning Resources:
 ### Documentation
 
+- Python Documentation (<https://www.python.org/doc/>): everything about Python
 - Official Python 3 Documentation (<https://docs.python.org/3/library/index.html>): "official"/technical explanation of what a particular function/operator does, examples of correct syntax, what the various libraries are, etc.
+- The Python Standard Library (<https://docs.python.org/3/library/>): it's nice to know the standard library.
 - Reserved Keywords in Python (<https://docs.python.org/3.0/reference/lexical_analysis.html#id8>): don't use these as variable names.
-- PEP 8 (<https://www.python.org/dev/peps/pep-0008/>): Style Guide for Python Code: learn what is good and bad style in Python.
-- Google Python Style Guide (<https://google.github.io/styleguide/pyguide.html>): style guidelines for Google code.
+- Python for Non-Programmers (<https://wiki.python.org/moin/BeginnersGuide/NonProgrammers>): 
+- 
 
 ### Textbooks/Tutorials
 - Dive Into Python (<http://www.diveintopython3.net/>): another survey of Python syntax, datatypes, etc.
@@ -19,7 +21,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Python 101 (<http://www.blog.pythonlibrary.org/2014/06/03/python-101-book-published-today/>) Available as a reasonably priced ebook. This is a new one from a popular Blogger about Python. Lots of practical examples. 
 - Python Essential Reference (<http://www.dabeaz.com/per.html>): The definitive reference for both Python and much of the standard library.
 - Hitchhikers Guide to Python (<http://docs.python-guide.org/en/latest>): Under active development, and still somewhat incomplete, but there is good stuff.
-- Google's Python Class (<https://developers.google.com/edu/python>): kinda old, used within Google to introduce Python to people who have just a little programming experience. 
+- Google's Python Class (<https://developers.google.com/edu/python>): kinda old, used within Google to introduce Python to people who have just a little programming experience. (note: for Python 2)
 - Writing Idiomatic Python (<https://www.jeffknupp.com/writing-idiomatic-python-ebook>): Focused on not just getting the code to work, but how to write it in a really "Pythonic" way.
 - Fluent Python (<http://shop.oreilly.com/product/0636920032519.do>): All python3, and focused on getting the advanced details right. Good place to go once you've got the basics down.
 - CheckIO (<https://checkio.org/>): learn Python by exploring a game world
@@ -28,6 +30,10 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Python Tutor (<http://www.pythontutor.com/>): interactive tutorial sequence of exercises.
 - Problem Solving with Algorithms and Data Structures (<http://interactivepython.org/runestone/static/pythonds/index.html>): Links to an external site.
 - Python Course (http://www.python-course.eu/python3_course.php>): Links to an external site.
+- Software carpentry (<https://v4.software-carpentry.org/python/>)
+- edX Python courses (<https://www.edx.org/course?search_query=python>)
+- coursera Python courses (<https://www.coursera.org/courses?languages=en&query=python>)
+- Udacity Python courses (<https://www.udacity.com/course/programming-foundations-with-python--ud036>)
 
 
 ### Debugging
@@ -43,3 +49,19 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Project Euler (<https://projecteuler.net/>): additional programming challenges you can try once your Python knowledge becomes stronger; problems are sorted by increasing difficulty.
 - Coding Bat (<http://codingbat.com/python>): problems you can solve within an online interpreter.
 - Codewars (<https://www.codewars.com/?language=python>): improve your skills by training on real code challenges.
+
+### Advanced stuff
+- Writing your first Django app (<https://docs.djangoproject.com/en/dev/intro/tutorial01/>): for Django developers.
+- Python for Programmers(<https://wiki.python.org/moin/BeginnersGuide/Programmers>)
+
+### Python style and example programs
+
+- PEP 8 (<https://www.python.org/dev/peps/pep-0008/>): Style Guide for Python Code: learn what is good and bad style in Python.
+- Google Python Style Guide (<https://google.github.io/styleguide/pyguide.html>): style guidelines for Google code.
+
+It can be helpful to read existing code to get a better idea of how to organize your own programs. Here are some good examples of short Python programs, with explanations:
+
+- Solving Every Sudoku Puzzle (<http://norvig.com/sudoku.html>)
+- How to Write a Spelling Corrector (<http://norvig.com/spell-correct.html>)
+- Natural language processing (<http://norvig.com/ngrams/>)
+- Python Cookbook (<http://shop.oreilly.com/product/0636920027072.do>)
