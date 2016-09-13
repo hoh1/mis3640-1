@@ -10,7 +10,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - The Python Standard Library (<https://docs.python.org/3/library/>): it's nice to know the standard library.
 - Reserved Keywords in Python (<https://docs.python.org/3.0/reference/lexical_analysis.html#id8>): don't use these as variable names.
 - Python for Non-Programmers (<https://wiki.python.org/moin/BeginnersGuide/NonProgrammers>): 
-- 
+
 
 ### Textbooks/Tutorials
 - Dive Into Python (<http://www.diveintopython3.net/>): another survey of Python syntax, datatypes, etc.
