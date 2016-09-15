@@ -21,11 +21,28 @@ def polygon(t, length, n):
         t.lt(360/n)
 
 
+#Exercise 2.4
+import math
+
+def circle(t, r):
+    circumference = 2 * math.pi * r
+    n = 50
+    length = circumference / n
+    polygon(t,  length, n)
+
 jerry = turtle.Turtle()
+print(jerry.position())
+jerry.setx(-200)
+jerry.sety(-200)
 #square(jerry, 100) 
-polygon(jerry, 50, 12)
+#polygon(jerry, 50, 4)
+print(jerry.position())
+circle(jerry, 80)
 
 alex = turtle.Turtle()
-square(alex, 30, 8) 
+#polygon(alex, 30, 8) 
+
+#polygon(alex, n=7, length=70)
+#polygon(alex, 70, 7)
 
 turtle.mainloop()  
