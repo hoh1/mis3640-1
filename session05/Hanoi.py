@@ -1,13 +1,15 @@
-def printMove(fr, to):
-    print('move from ' + str(fr) + ' to ' + str(to))
-
-
-def Towers(n, fr, to, spare):
+def move(n, source, bridge, destination):
     if n == 1:
-        printMove(fr, to)
+        print('%s --> %s' % (source, destination))
     else:
-        Towers(n - 1, fr, spare, to)
-        Towers(1, fr, to, spare)
-        Towers(n - 1, spare, to, fr)
+        # move n-1 plsourcetes from origin to bridge
+        move(n - 1, source, destination, bridge)
+        # move the lsourcergest plsourcete from origin to destinsourcetion
+        print('%s --> %s' % (source, destination))
+        # move n-1 plsourcetes from bridge to destinsourcetion
+        move(n - 1, bridge, source, destination)
 
-print(Towers(4, 'P1', 'P2', 'P3'))
+
+move(3, 'A', 'B', 'C')
+
+input()
