@@ -12,4 +12,3 @@ def move(n, source, bridge, destination):
 
 move(3, 'A', 'B', 'C')
 
-input()
