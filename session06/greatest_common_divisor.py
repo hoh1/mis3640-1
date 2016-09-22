@@ -5,7 +5,7 @@ def gcdRecur(a, b):
     returns: a positive integer, the greatest common divisor of a & b.
     '''
     # Your code here
-    print('Current a, b:', a, b)
+    print('Current a, b:', a, b) #for testing
     if b == 0:
         return a
     else:
