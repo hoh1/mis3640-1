@@ -32,7 +32,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 
 
 ### MOOCs
-- Python Course (http://www.python-course.eu/python3_course.php>): Links to an external site
+- Python Course (<http://www.python-course.eu/python3_course.php>): Links to an external site
 - Codecademy (<https://www.codecademy.com/learn/python>): (note: for Python 2) learn Python by building web apps and manipulating data; interactive tutorial sequence.
 - Software carpentry (<https://v4.software-carpentry.org/python/>)
 - edX Python courses (<https://www.edx.org/course?search_query=python>)
