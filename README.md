@@ -50,7 +50,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 ### Other Q&A
 - Stack Overflow (<http://stackoverflow.com/questions/tagged/python>): a large Q&A forum for programming concepts (not just Python). 
 - Python Subreddit (<https://www.reddit.com/r/python>)
-- The Python IAQ: Infrequently Answered Questions (<norvig.com/python-iaq.html>) by Peter Norvig
+- The Python IAQ: Infrequently Answered Questions (<http://norvig.com/python-iaq.html>) by Peter Norvig
 
 ### More practice problems
 - Python Challenge (<http://www.pythonchallenge.com/>): a series of puzzles you can try to test your Python abilities.
