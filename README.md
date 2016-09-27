@@ -48,7 +48,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Debugging in Python (<https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/>): steps you can take to try to debug your program.
 
 ### Other Q&A
-- Stack Overflow (<http://stackoverflow.com/questions/tagged/python>): a large Q&A forum for programming concepts (not just Python). Try searching here before you post on the edX forum, and you may find that someone has already answered your question.
+- Stack Overflow (<http://stackoverflow.com/questions/tagged/python>): a large Q&A forum for programming concepts (not just Python). 
 - Python Subreddit (<https://www.reddit.com/r/python>)
 - The Python IAQ: Infrequently Answered Questions (<norvig.com/python-iaq.html>) by Peter Norvig
 
