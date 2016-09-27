@@ -8,7 +8,7 @@ def crazy_about_9(a, b):
     """
     a, b: two integers
 
-    Returns True if either one is 6, or if their sum or difference is 6. 
+    Returns True if either one is 9, or if their sum or difference is 9. 
     """
 
 # When you've completed your function, uncomment the
