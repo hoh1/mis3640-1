@@ -39,6 +39,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - coursera Python courses (<https://www.coursera.org/courses?languages=en&query=python>)
 - Udacity Python courses (<https://www.udacity.com/course/programming-foundations-with-python--ud036>)
 - Google's Python Class (<https://developers.google.com/edu/python>): kinda old, used within Google to introduce Python to people who have just a little programming experience. (note: for Python 2)
+- Dataquest.io Learning Python (<https://www.dataquest.io/subject/learning-python>)
 
 
 ### Debugging
