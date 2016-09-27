@@ -10,13 +10,14 @@ def crazy_about_9(a, b):
 
     Returns True if either one is 9, or if their sum or difference is 9. 
     """
+    return a == 9 or b == 9 or a + b == 9 or abs(a - b) == 9
 
 # When you've completed your function, uncomment the
 # following lines and run this file to test!
 
-# print(crazy_about_9(2, 9))
-# print(crazy_about_9(4, 5))
-# print(crazy_about_9(3, 8))
+print(crazy_about_9(2, 9))
+print(crazy_about_9(4, 5))
+print(crazy_about_9(3, 8))
 
 
 """
@@ -40,15 +41,15 @@ def leap_year(year):
 
     Returns True if year is a leap_year, False if year is not a leap_year.
     """
-    pass
+    return year % 4 != 0 or year % 100 == 0 and year > 1582 and year % 400 != 0
 
-# When you've completed your function, uncomment the
-# following lines and run this file to test!
+    # When you've completed your function, uncomment the
+    # following lines and run this file to test!
 
-# print(leap_year(1900))
-# print(leap_year(2016))
-# print(leap_year(2017))
-# print(leap_year(2000))
+print(leap_year(1900))
+print(leap_year(2016))
+print(leap_year(2017))
+print(leap_year(2000))
 
 
 """
@@ -62,10 +63,13 @@ Write a function with loops that computes The sum of all squares between
 
 
 def sum_squares(n):
-    pass
+    result = 0
+    for x in range(n + 1):
+        result += x * x
+    return result
 
 # When you've completed your function, uncomment the
 # following lines and run this file to test!
 
-# print(sum_squares(1))
-# print(sum_squares(100))
+print(sum_squares(1))
+print(sum_squares(100))
