@@ -78,6 +78,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 
 ### Python style and example programs
 - PEP 8 (<https://www.python.org/dev/peps/pep-0008/>): Style Guide for Python Code: learn what is good and bad style in Python.
+- PEP 257 -- Docstring Conventions (<https://www.python.org/dev/peps/pep-0257/>)
 - Google Python Style Guide (<https://google.github.io/styleguide/pyguide.html>): style guidelines for Google code.
 - The Elements of Python Style (<https://github.com/amontalenti/elements-of-python-style>)
 

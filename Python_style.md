@@ -1,6 +1,8 @@
 # Python Style
 
-- Related links: PEP 0008 – Style Guide for Python Code (<https://www.python.org/dev/peps/pep-0008/>)
+## Related links: 
+- PEP 0008 – Style Guide for Python Code (<https://www.python.org/dev/peps/pep-0008/>)
+- PEP 257 -- Docstring Conventions (<https://www.python.org/dev/peps/pep-0257/>)
 
 Program Python like a pro! Code in the right-hand column better to employers and other places you might send your code. It also helps avoid some common pitfalls. Finally, most of the code you see will use the patterns in the right-column; practice writing code this way will help you understand code that you read, when you work on a team or with code from cookbooks and other projects.
 
