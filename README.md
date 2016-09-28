@@ -74,6 +74,7 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Easy-Python (<http://easy-python.readthedocs.io/en/latest/>): a list of awesome things you didn’t know you would need.
 - Awesome Python Awesome (<https://github.com/vinta/awesome-python>): a curated list of awesome Python frameworks, libraries, software and resources.
 - Best Python Videos ((http://www.fullstackpython.com/best-python-videos.html))
+- Hidden features of Python (<http://stackoverflow.com/questions/101268/hidden-features-of-python>)
 
 
 ### Python style and example programs
