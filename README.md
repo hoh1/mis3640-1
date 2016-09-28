@@ -61,6 +61,17 @@ This is a public repository for 2016 Fall MIS3640 (PROBLEM SOLVING & SOFTWARE DE
 - Google's Python Exercises (<https://developers.google.com/edu/python/exercises/basic>)
 - LeetCode Online Judge (<https://leetcode.com/>)
 
+### Coding competitions
+- Google Code Jam (<https://code.google.com/codejam>)
+- TopCoder (<https://www.topcoder.com/community/data-science/data-science-tutorials/>)
+- Codeforces (<http://codeforces.com/>)
+- Timus Online Judge (<http://acm.timus.ru/>)
+- Codechef (<https://www.codechef.com/>)
+- LeetCode OJ (<https://leetcode.com/problemset/algorithms/>)
+- HackerRank  Programming problems and Competitions (<https://www.hackerrank.com/>)
+- Sphere Online Judge (SPOJ) (<http://www.spoj.com/>)
+
+
 ### Advanced stuff
 - Practical Business Python (<http://pbpython.com/>)
 - Writing your first Django app (<https://docs.djangoproject.com/en/dev/intro/tutorial01/>): for Django developers.
