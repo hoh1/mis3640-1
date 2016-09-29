@@ -1,3 +1,8 @@
+str_1 = 'iPAD'
+str_2 = 'Babson'
+str_3 = 'python'
+
+
 def any_lowercase1(s):
     for c in s:
         if c.islower():
@@ -5,19 +10,26 @@ def any_lowercase1(s):
         else:
             return False
 
-str_1 = 'iPAD'
-str_2 = 'Babson'
-str_3 = 'python'
-
 print(any_lowercase1(str_1))
 # True or False?
-
-
 print(any_lowercase1(str_2))
+# True or False?
+print(any_lowercase1(str_3))
 # True or False?
 
 
-print(any_lowercase1(str_3))
+def any_lowercase2(s):
+    for c in s:
+        if 'c'.islower():
+            return 'True'
+        else:
+            return 'False'
+
+print(any_lowercase2(str_1))
+# True or False?
+print(any_lowercase2(str_2))
+# True or False?
+print(any_lowercase2(str_3))
 # True or False?
 
 
@@ -26,18 +38,10 @@ def any_lowercase3(s):
         flag = c.islower()
     return flag
 
-str_1 = 'iPHONE'
-str_2 = 'Babson'
-str_3 = 'python'
-
 print(any_lowercase3(str_1))
 # True or False?
-
-
 print(any_lowercase3(str_2))
 # True or False?
-
-
 print(any_lowercase3(str_3))
 # True or False?
 
@@ -48,18 +52,10 @@ def any_lowercase4(s):
         flag = flag or c.islower()
     return flag
 
-str_1 = 'iPHONE'
-str_2 = 'Babson'
-str_3 = 'python'
-
 print(any_lowercase4(str_1))
 # True or False?
-
-
 print(any_lowercase4(str_2))
 # True or False?
-
-
 print(any_lowercase4(str_3))
 # True or False?
 
@@ -70,18 +66,9 @@ def any_lowercase5(s):
             return False
     return True
 
-
-str_1 = 'iPHONE'
-str_2 = 'Babson'
-str_3 = 'python'
-
 print(any_lowercase5(str_1))
 # True or False?
-
-
 print(any_lowercase5(str_2))
 # True or False?
-
-
 print(any_lowercase5(str_3))
 # True or False?
