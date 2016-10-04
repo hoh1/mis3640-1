@@ -18,3 +18,13 @@ roster = ["Beshansky",
           "Tariq",
           "Wang",
           "Wolf"]
+
+
+def call_three(roster):
+    """
+    print three names randomly
+
+    roster: a list of strings
+    """
+
+call_three(roster)
