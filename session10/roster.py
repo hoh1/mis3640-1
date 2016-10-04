@@ -18,6 +18,8 @@ roster = ["Beshansky",
           "Wang",
           "Wolf"]
 
+import random
+
 
 def call_three(roster):
     """
@@ -25,5 +27,8 @@ def call_three(roster):
 
     roster: a list of strings
     """
+    number_list = random.sample(range(1, len(roster)), 3)
+    for number in number_list:
+        print(roster[number])
 
 call_three(roster)

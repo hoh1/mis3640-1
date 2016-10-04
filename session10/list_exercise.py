@@ -10,6 +10,10 @@ def nested_sum(t):
     >>> nested_sum(t)
     21
     """
+    total = 0
+    for i in t:
+        total += sum(i)
+    return total
 
 
 def cumsum(t):
@@ -24,6 +28,12 @@ def cumsum(t):
     >>> cumsum(t)
     [1, 3, 6]
     """
+    result = []
+    total = 0
+    for i in t:
+        total += i
+        result.append(total)
+    return result
 
 
 def middle(t):
@@ -97,7 +107,35 @@ def has_duplicates(s):
     s: string or list
 
     returns: bool
+
+    output:
+    >>> print(has_duplicates('cba'))
+    False
+    >>> print(has_duplicates('abba'))
+    True
     """
+    for i in s:
+        if s.count(i) > 1:
+            return True
+    return False
+
+
+def has_adjacent_duplicates(s):
+    """Returns True if there are two same adjacent elements.
+
+    s: string or list
+
+    returns: bool
+
+    output:
+    >>> print(has_adjacent_duplicates('cba'))
+    False
+    >>> print(has_adjacent_duplicates('abca'))
+    Flase
+    >>> print(has_adjacent_duplicates('abbc'))
+    True
+    """
+    pass
 
 
 def main():
