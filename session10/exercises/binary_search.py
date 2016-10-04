@@ -9,6 +9,7 @@ def binary_search(my_list, x):
 
     returns the index of x if x is in my_list, None if not.
     '''
+    pass
 
 
 test_list = [1, 3, 5, 235425423, 23, 6, 0, -23, 6434]

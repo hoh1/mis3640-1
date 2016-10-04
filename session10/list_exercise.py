@@ -73,10 +73,21 @@ def is_sorted(t):
 def is_anagram(word1, word2):
     """Checks whether two words are anagrams
 
+    Two words are anagrams if you can rearrange the letters from one to 
+    spell the other.
+
     word1: string or list
     word2: string or list
 
     returns: boolean
+
+    Expected output:
+    >>> is_anagram('stop', 'pots')
+    True
+    >>> is_anagram('different', 'letters')
+    False
+    >>> is_anagram([1, 2, 2], [2, 1, 2])
+    Ture
     """
 
 
