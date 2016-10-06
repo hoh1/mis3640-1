@@ -9,3 +9,8 @@ Among them, three were telling the truth while one was lying.
 Could you find out who is the thief?
 
 """
+for thief in ['John', 'Paul', 'George', 'Ringo']:
+    sum = (thief != 'John') + (thief == 'George') + \
+        (thief == 'Ringo') + (thief != 'Ringo')
+    if sum == 3:
+        print("The thief is {}.".format(thief))
