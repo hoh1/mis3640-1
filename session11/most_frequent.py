@@ -26,8 +26,7 @@ def read_file(filename):
     return open(filename).read()
 
 
-if __name__ == '__main__':
-    string = read_file('emma.txt')
-    letter_seq = most_frequent(string)
-    for x in letter_seq:
-        print(x)
+string = read_file('trump_at_RNC.txt')
+letter_seq = most_frequent(string)
+for x in letter_seq:
+    print(x)
