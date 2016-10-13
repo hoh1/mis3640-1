@@ -14,6 +14,8 @@ def replace_even(data):
 # ONE_TEN = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # replace_even(ONE_TEN)
 # print(ONE_TEN)
+# Expected output:
+# [0, 2, 0, 4, 0, 6, 0, 8, 0, 10]
 
 
 def remove_middle(data):
@@ -30,6 +32,8 @@ def remove_middle(data):
 # ONE_TEN = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # remove_middle(ONE_TEN)
 # print(ONE_TEN)
+# Expected output:
+# [1, 2, 3, 4, 7, 8, 9, 10]
 
 
 def insert_integer(data, number):
@@ -50,6 +54,8 @@ def insert_integer(data, number):
 # data = [1, 3, 40, 75, 90, 2000, 2001, 2016]
 # new_data = insert_integer(data, 2015)
 # print(new_data)
+# Expected output:
+# [1, 3, 40, 75, 90, 2000, 2001, 2015, 2016]
 
 
 def print_hist(data):
