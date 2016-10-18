@@ -17,8 +17,10 @@ def process_file(filename, skip_header):
     #     skip_gutenberg_header(fp)
 
     for line in fp:
-        if not line.startswith('*** END OF THIS PROJECT'):
-            pass
+        if line.startswith('*** END OF THIS PROJECT'):
+            break
+        # INSERT CODE BELOW
+        pass
 
     return hist
 
