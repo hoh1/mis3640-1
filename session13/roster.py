@@ -18,7 +18,7 @@ ROSTER = {"Beshansky": 0,
           "Schilb": 0,
           "Tariq": 0,
           "Wang": 0,
-          "Wolf": 0]
+          "Wolf": 0}
 
 
 def call(roster):
