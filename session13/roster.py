@@ -24,10 +24,22 @@ ROSTER = {"Beshansky": 0,
 def call(roster):
     """
     Among the names that are called least times,
-    print one name
+    return one name randomly
 
     roster: a dict of names and integers
-    """
-    print(random.sample(roster, 3))
 
-call(ROSTER)
+    TO-DO: update dict after every call
+    TO-DO: Save dict to files 
+    """
+    value_list = roster.values()
+    min_value = min(value_list)
+
+    names = []
+    for name, number in roster.items():
+        if number == min_value:
+            names.append(name)
+
+    return random.choice(names)
+
+
+print(call(ROSTER))
