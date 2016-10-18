@@ -43,3 +43,5 @@ def call(roster):
 
 
 print(call(ROSTER))
+print(call(ROSTER))
+print(call(ROSTER))
