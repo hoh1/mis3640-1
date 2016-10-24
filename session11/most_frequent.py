@@ -23,7 +23,7 @@ def make_histogram(s):
 
 def read_file(filename):
     """Returns the contents of a file as a string."""
-    return open(filename).read()
+    return open(filename, encoding='utf8').read()
 
 
 string = read_file('trump_at_RNC.txt')
