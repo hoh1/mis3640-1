@@ -1,5 +1,5 @@
 import my_math
 
-print("this is my game.")
+print("this is my_game.")
 
-print(my_math.square(17))
+print(my_math.square(3))

@@ -3,7 +3,9 @@ def square(x):
 
 
 def main():
-    print("test: square(2016) ==", square(2016))
+    print("In my_math: square(2016) ==", square(2016))
 
 if __name__ == '__main__':
     main()
+
+main()
