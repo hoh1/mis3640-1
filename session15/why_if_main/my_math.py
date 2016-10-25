@@ -3,9 +3,8 @@ def square(x):
 
 
 def main():
-    print("In my_math: square(2016) ==", square(2016))
+    year = int(input())
+    print("In my_math: square(2016) ==", square(year))
 
 if __name__ == '__main__':
     main()
-
-main()
