@@ -106,6 +106,7 @@ def print_rectangle(rect):
 
 def main():
     my_point = Point()
+    print(Point.__doc__)
     my_point.x = 3
     my_point.y = 4
     print('My point', end=' ')
