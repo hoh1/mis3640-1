@@ -5,17 +5,27 @@ class Time:
     """
 
 
+""""""""""""""""""""""""""""""""""""
+# Exercise 1
+""""""""""""""""""""""""""""""""""""
+
+
 def print_time(t):
     """Prints a string representation of the time.
 
     t: Time object
     """
-    print('%.2d:%.2d:%.2d' % (t.hour, t.minute, t.second))
+    pass
 
 
 def is_after(t1, t2):
     """Returns True if t1 is after t2; false otherwise."""
     pass
+
+
+""""""""""""""""""""""""""""""""""""
+# Prototyping
+""""""""""""""""""""""""""""""""""""
 
 
 def add_time(t1, t2):
@@ -101,6 +111,11 @@ def valid_time(time):
     return True
 
 
+""""""""""""""""""""""""""""""""""""
+# Exercise 3
+""""""""""""""""""""""""""""""""""""
+
+
 def substract_time(t1, t2):
     """Substracts two time objects.
 
@@ -109,6 +124,11 @@ def substract_time(t1, t2):
     returns: Time
     """
     pass
+
+
+""""""""""""""""""""""""""""""""""""
+# Exercise 4
+""""""""""""""""""""""""""""""""""""
 
 
 def mul_time(t1, factor):
@@ -138,5 +158,5 @@ def main():
     print_time(end_time)
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

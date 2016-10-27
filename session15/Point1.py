@@ -8,10 +8,10 @@ class Point:
         # return 'This point is (%g, %g)'.format(self.x, self.y)
         return 'I do not want to tell you anything'
 
-new_point = Point()
-new_point.x = 100
-new_point.y = 50
-print(new_point)
+# new_point = Point()
+# new_point.x = 100
+# new_point.y = 50
+# print(new_point)
 
 
 def print_point(p):
