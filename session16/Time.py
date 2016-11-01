@@ -85,6 +85,13 @@ def add_time(t1, t2):
 # print_time(done)
 
 
+def increment(t1, seconds):
+    """Adds seconds to a Time object."""
+    assert valid_time(t1)
+    seconds += time_to_int(t1)
+    return int_to_time(seconds)
+
+
 """"""""""""""""""""""""""""""""""""
 # Designed Development
 """"""""""""""""""""""""""""""""""""
