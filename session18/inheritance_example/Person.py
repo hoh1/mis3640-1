@@ -20,7 +20,7 @@ class Person(object):
         return (datetime.date.today() - self.birthday).days
 
     def __lt__(self, other):
-        """return True if self's ame is lexicographically
+        """return True if self's name is lexicographically
            less than other's name, and False otherwise"""
         if self.lastName == other.lastName:
             return self.name < other.name
@@ -41,9 +41,9 @@ def main():
     p3 = Person('Bill Gates')
     p3.setBirthday(10, 28, 55)
     p4 = Person('Donald Trump')
-    p5 = Person('Steve Wozniak')
+    p5 = Person('Michelle Obama')
 
-    personList = [p1, p2, p3, p4]
+    personList = [p1, p2, p3, p4, p5]
 
     for e in personList:
         print(e)

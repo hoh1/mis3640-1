@@ -21,14 +21,15 @@ def main():
     BabsonList = studentList + [p1, p2, p3]
     allList = BabsonList + [q1, q2]
 
-    for everyone in studentList:
-        print(everyone)
+    # for everyone in studentList:
+    #     print(everyone)
 
     for everyone in BabsonList:
         print(everyone)
+        print(everyone.speak('Happy holidays!'))
 
-    for everyone in allList:
-        print(everyone)
+    # for everyone in allList:
+    #     print(everyone)
 
 
 if __name__ == '__main__':

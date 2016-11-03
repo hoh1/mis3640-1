@@ -15,8 +15,8 @@ class UG(Student):
     def getClass(self):
         return self.year
 
-    # def speak(self, utterance):
-    #     return BabsonPerson.speak(self, " Dude, " + utterance)
+    def speak(self, utterance):
+        return BabsonPerson.speak(self, " Dude, " + utterance)
 
 
 class Grad(Student):
@@ -44,6 +44,11 @@ def main():
     print(s2.speak('I have no clue!'))
 
     print(s4.speak('I am not sure why I am here.'))
+
+    # print(isStudent(s1))
+
+    # p1 = Person('Hillary Clinton')
+    # print(isStudent(p1))
 
 if __name__ == '__main__':
     main()

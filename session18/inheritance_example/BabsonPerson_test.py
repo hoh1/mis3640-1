@@ -12,24 +12,24 @@ def main():
 
     BabsonPersonList = [b1, b2, b3]
 
-    for everyone in BabsonPersonList:
-        print(everyone)
-        print(everyone.speak('how are you?'))
-
-    BabsonPersonList.sort()
-
-    for everyone in BabsonPersonList:
-        print(everyone)
-        print(everyone.speak('how are you?'))
-
-    # p4 = Person('Donald Trump')
-    # p5 = Person('Steve Wozniak')
-
-    # personList = BabsonPersonList + [p4, p5]
-
-    # for everyone in personList:
+    # for everyone in BabsonPersonList:
     #     print(everyone)
-    #     # print(everyone.speak('how are you?'))
+    #     print(everyone.speak('how are you?'))
+
+    # BabsonPersonList.sort()
+
+    # for everyone in BabsonPersonList:
+    #     print(everyone)
+    #     print(everyone.speak('how are you?'))
+
+    p4 = Person('Donald Trump')
+    p5 = Person('Steve Wozniak')
+
+    personList = BabsonPersonList + [p4, p5]
+
+    for everyone in personList:
+        print(everyone)
+        # print(everyone.speak('how are you?'))
 
 if __name__ == '__main__':
     main()
