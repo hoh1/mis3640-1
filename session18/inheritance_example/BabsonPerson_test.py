@@ -17,7 +17,9 @@ def main():
     #     print(everyone.speak('how are you?'))
 
     # BabsonPersonList.sort()
-
+    # print()
+    # print('After sorting:')
+    # print()
     # for everyone in BabsonPersonList:
     #     print(everyone)
     #     print(everyone.speak('how are you?'))
