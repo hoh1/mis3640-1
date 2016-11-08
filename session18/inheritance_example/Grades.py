@@ -90,7 +90,13 @@ def main():
     mis3640.addGrade(ug1, 80)
     mis3640.addGrade(ug2, 75)
 
+    print()
+    print('after second test:')
     print(gradeReport(mis3640))
+
+    for student in mis3640.students:
+        print(student.speak('I am excited to see the results!'))
+
 
 if __name__ == '__main__':
     main()
