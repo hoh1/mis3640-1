@@ -196,3 +196,6 @@ def main():
     print('Actual Output:', ciphertext.decrypt_text())
 
     print(decrypt_joke())
+
+if __name__ = '__main__':
+    main()
