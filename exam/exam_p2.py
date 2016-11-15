@@ -32,7 +32,7 @@ def get_joke_string():
     """
     Returns: an article in encrypted text.
     """
-    f = open("joke.txt", "r")
+    f = open("joke.txt", "r", encoding = 'utf-8') #can't read the apostrophe without this
     joke = str(f.read())
     f.close()
     return joke
