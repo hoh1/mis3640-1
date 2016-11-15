@@ -1,6 +1,6 @@
 def speak_Chinese(number):
     '''
-    number: a integer, 0<=number<=999
+    number: an integer, 0<=number<=999
 
     Returns: a string that is the number in Chinese
     '''
