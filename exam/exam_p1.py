@@ -15,6 +15,8 @@ def main():
     print('In Chinese: 20 = er shi')
     print(speak_Chinese(16))
     print('In Chinese: 16 = shi liu')
+    print(speak_Chinese(200))
+    print('In Chinese: 200 = er bai')
     print(speak_Chinese(109))
     print('In Chinese: 109 = yi bai ling jiu')
     print(speak_Chinese(999))
