@@ -197,5 +197,5 @@ def main():
 
     print(decrypt_joke())
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()

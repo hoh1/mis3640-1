@@ -20,5 +20,5 @@ def main():
     print(speak_Chinese(999))
     print('In Chinese: 999 = jiu bai jiu shi jiu')
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
